@@ -305,7 +305,6 @@ hist(residuals_model2, main = "Model 2 Residuals", xlab = "Residuals")
 hist(residuals_model3, main = "Model 3 Residuals", xlab = "Residuals")
 hist(residuals_model4, main = "Model 4 Residuals", xlab = "Residuals")
 hist(residuals_model5, main = "Model 5 Residuals", xlab = "Residuals")
-hist(residuals_model6, main = "Model 6 Residuals", xlab = "Residuals")
 
 par(mfrow = c(1,1))  # Reset plotting layout
 
@@ -326,8 +325,6 @@ qqline(residuals_model4)
 qqnorm(residuals_model5,col = "#336600", main = "Q-Q Plot: Model 5 Residuals")
 qqline(residuals_model5)
 
-qqnorm(residuals_model6, col = "#336600",main = "Q-Q Plot: Model 6 Residuals")
-qqline(residuals_model6)
 par(mfrow = c(1,1))
 
 
